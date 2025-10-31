@@ -55,7 +55,7 @@ if (isset($_POST["registerBtn"])) {
             
             $mail->Username   = 'info.spendwise@gmail.com';
             
-            $mail->Password   = 'cyxx rgtj uhbz ohdu';
+            $mail->Password   = 'Your gmail app password here';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port       = 465;
 
@@ -83,5 +83,6 @@ if (isset($_POST["registerBtn"])) {
     header("location:Register_Form.php");
     exit;
 }
+
 
 ?>
